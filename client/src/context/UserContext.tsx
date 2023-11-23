@@ -33,7 +33,7 @@ const UserProvider=({children}:any)=>{
                 email
             }
             console.log("User data from fornt end : ",userdata)
-            const res = await axios.get("http://localhost:5000/finduseremail", {params: userdata})
+            const res = await axios.get("https://ecom-mern-back.vercel.app/finduseremail", {params: userdata})
             const userData=await res.data;
             console.log(userData)
 
