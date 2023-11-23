@@ -54,7 +54,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.urlencoded({limit:"10mb",extended:true,parameterLimit:50000}))
 
 app.use(cors({
-    origin:["http://localhost:3000"],
+    origin:["https://ecom-mern-front.vercel.app"],
     methods:["GET","POST"]
 }))
 
