@@ -2,7 +2,7 @@
   "name": "ecommerce-project",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://ecom-mern-server.vercel.app",
+  "proxy": "https://ecom-mern-front-back.vercel.app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
