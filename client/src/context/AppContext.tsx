@@ -36,7 +36,7 @@ const AppProvider=({children}:any)=>{
     const getSingleProduct=async(id:any)=>{     
         dispatch({type:"SET_SINGLE_LOADING"})
         try{
-            const res=await axios.get(`http://localhost:5000/products/${id}`);
+            const res=await axios.get(`https://ecom-mern-back.vercel.app/products/${id}`);
             const data=await res.data;
             console.log(res)
             console.log(data)
