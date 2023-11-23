@@ -14,7 +14,7 @@ const initialState:any={
 }
 const AppContext=createContext(initialState)
 
-const API="http://localhost:5000/products"
+const API="https://ecom-mern-back.vercel.app/products"
 
 const AppProvider=({children}:any)=>{
     const [state, dispatch]:any = useReducer(reducer, initialState)
